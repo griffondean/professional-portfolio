@@ -22,6 +22,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-<img width="1276" alt="Screen Shot 2023-02-16 at 9 03 34 PM" src="https://user-images.githubusercontent.com/123897918/219530847-939512c0-3270-40b4-a895-91e3bc8aba3b.png">
+<img width="1138" alt="Screen Shot 2023-02-23 at 11 32 29 AM" src="https://user-images.githubusercontent.com/123897918/220970432-822eb0e5-88e6-4746-8d2e-3307820195f2.png">
+
+
 
 https://griffondean.github.io/professional-portfolio/
