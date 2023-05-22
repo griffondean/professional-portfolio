@@ -113,6 +113,16 @@ div {
     cursor: pointer;
 }
 
+#btn-3 {
+    background-color: var(--lightGreen);
+    color: var(--darkGreen);
+    font-size: 16px;
+    padding: 20px 24px;
+    border: 2px solid var(--darkGreen);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 aside {
     display: block;
