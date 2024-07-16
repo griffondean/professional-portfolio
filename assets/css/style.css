@@ -1,6 +1,6 @@
 :root {
-    --darkGreen: #216271;
-    --lightGreen: #c3e5ed;
+    --bluebird: #7ab0ea;
+    --white: #ffffff;
 }
 
 * {
@@ -12,7 +12,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: var(--lightGreen);
+    background: var(--white);
 }
 
 header {
@@ -20,24 +20,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background: var(--darkGreen);
-    color: white; 
-}
-
-.profile-pic {
-    margin-right: 740px;
-    width: 4.7%;
-    height: 6%;
+    background: var(--bluebird);
+    color: var(--white); 
 }
 
 h1 { 
     font-size: 200%;
     display: block;
     font-weight: bold;
+    padding-left: 1%;
 }
 
 nav {
     display: block;
+    padding-right: 1%;
 }
 
 ul {
@@ -47,6 +43,22 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 30px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+/* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
 }
 
 li {
@@ -71,7 +83,7 @@ ol, ul {
 }
 
 nav a {
-    color: var(--lightGreen);
+    color: var(--white);
     font-weight: bold;
     text-decoration: none;
 }
@@ -94,31 +106,31 @@ div {
 }
 
 #btn {
-    background-color: var(--lightGreen);
-    color: var(--darkGreen);
+    background-color: var(--white);
+    color: var(--bluebird);
     font-size: 16px;
     padding: 20px 24px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid var(--bluebird);
     border-radius: 5px;
     cursor: pointer;
 }
 
 #btn-2 {
-    background-color: var(--lightGreen);
-    color: var(--darkGreen);
+    background-color: var(--white);
+    color: var(--bluebird);
     font-size: 16px;
     padding: 20px 24px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid var(--bluebird);
     border-radius: 5px;
     cursor: pointer;
 }
 
 #btn-3 {
-    background-color: var(--lightGreen);
-    color: var(--darkGreen);
+    background-color: var(--white);
+    color: var(--bluebird);
     font-size: 16px;
     padding: 20px 24px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid var(--bluebird);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -140,18 +152,18 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: var(--darkGreen);
+    color: var(--bluebird);
     text-align: end;
 }
 
 section {
     flex: 2;
     padding-left: 20px;
-    border-left: 3px solid var(--darkGreen);
+    border-left: 3px solid var(--bluebird);
 }
 
 p {
-    color: var(--darkGreen);
+    color: var(--bluebird);
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -160,14 +172,14 @@ p {
 }
 
 .container .btn:hover {
-    background-color: var(--darkGreen);
-    color: var(--lightGreen);
+    background-color: var(--bluebird);
+    color: var(--white);
 }
 
 #contact-me li {
     display: inline-block;
     text-decoration: underline;
-    color: var(--darkGreen);
+    color: var(--bluebird);
     font-weight: bold;
     padding: 40px;
     font-size: larger;
@@ -177,7 +189,7 @@ p {
 footer {
     padding: 3%;
     text-align: center;
-    background: var(--darkGreen);
+    background: var(--bluebird);
 }
 
 @media screen and (max-width: 768px) {
