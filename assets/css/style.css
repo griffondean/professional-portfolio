@@ -1,5 +1,5 @@
 :root {
-    --bluebird: #7ab0ea;
+    --bluebird: #1b79de;
     --white: #ffffff;
 }
 
@@ -163,7 +163,6 @@ section {
 }
 
 p {
-    color: var(--bluebird);
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
